@@ -1,0 +1,4 @@
+name,latitude,longitude,country,population,id,city,jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec
+Luxembourg,49.61167,6.13,LU,76684,2960316,Luxembourg,0.16,0.09,0.91,5.24,11.41,16.48,15.17,16.72,13.95,9.5,6.2,0.53
+Esch-sur-Alzette,49.49583,5.98056,LU,28228,2960596,Esch-sur-Alzette,0.61,0.39,1.16,5.4,11.54,16.64,15.38,16.91,14.23,9.74,6.51,0.75
+Dudelange,49.48056,6.0875,LU,18013,2960634,Dudelange,0.41,0.37,1.1,5.42,11.56,16.66,15.4,16.94,14.17,9.65,6.43,0.66

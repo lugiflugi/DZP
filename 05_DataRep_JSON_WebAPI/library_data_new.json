@@ -1,0 +1,113 @@
+{
+    "Library": {
+        "name": "Central Library",
+        "address": "123 Library Street",
+        "Catalog": {
+            "booksByIsbn": {
+                "978-3-16-148410-0": {
+                    "title": "Example Book Title",
+                    "publicationYear": 2021,
+                    "isbn": "978-3-16-148410-0",
+                    "authorIds": [
+                        "author-1",
+                        "author-2"
+                    ],
+                    "bookItems": [
+                        {
+                            "id": "bookitem-1",
+                            "libId": "nyc-central-lib",
+                            "purchaseDate": "2020-01-01",
+                            "isLent": true
+                        },
+                        {
+                            "id": "bookitem-2",
+                            "libId": "nyc-central-lib",
+                            "purchaseDate": "2020-01-01",
+                            "isLent": true
+                        }
+                    ]
+                },
+                "978-1779501127": {
+                    "title": "Watchmen",
+                    "publicationYear": 1987,
+                    "isbn": "978-1779501127",
+                    "authorIds": [
+                        "alan-moore",
+                        "dave-gibbons"
+                    ],
+                    "bookItems": [
+                        {
+                            "id": "book-item-1",
+                            "libId": "nyc-central-lib",
+                            "purchaseDate": "2024-01-01",
+                            "isLent": false
+                        },
+                        {
+                            "id": "book-item-2",
+                            "libId": "nyc-central-lib",
+                            "purchaseDate": "2024-01-01",
+                            "isLent": false
+                        }
+                    ]
+                }
+            },
+            "authorsById": {
+                "author-1": {
+                    "id": "author-1",
+                    "name": "John Doe",
+                    "bookIsbns": [
+                        "978-3-16-148410-0"
+                    ]
+                },
+                "author-2": {
+                    "id": "author-2",
+                    "name": "John Doe",
+                    "bookIsbns": [
+                        "978-3-16-148410-0"
+                    ]
+                },
+                "alan-moore": {
+                    "id": "alan-moore",
+                    "name": "alan-moore",
+                    "bookIsbns": [
+                        "978-1779501127"
+                    ]
+                },
+                "dave-gibbons": {
+                    "id": "dave-gibbons",
+                    "name": "dave-gibbons",
+                    "bookIsbns": [
+                        "978-1779501127"
+                    ]
+                }
+            }
+        },
+        "UserManagement": {
+            "librariansByEmail": {
+                "librarian@example.com": {
+                    "email": "librarian@example.com",
+                    "encryptedPassword": "encrypted_password_here"
+                }
+            },
+            "membersByEmail": {
+                "member@example.com": {
+                    "email": "member@example.com",
+                    "encryptedPassword": "encrypted_password_here",
+                    "isBlocked": false,
+                    "bookLendings": [
+                        {
+                            "lendingDate": "2021-06-01",
+                            "bookItemId": "bookitem-1",
+                            "bookIsbn": "978-3-16-148410-0"
+                        },
+                        {
+                            "lendingDate": "2021-06-01",
+                            "bookItemId": "bookitem-2",
+                            "bookIsbn": "978-3-16-148410-0"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
